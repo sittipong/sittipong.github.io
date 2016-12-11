@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square150x150logo src="<?php echo get_template_directory_uri(); ?>/mstile-150x150.png"/>
+      <TileColor>#14141a</TileColor>
+    </tile>
+  </msapplication>
+</browserconfig>
