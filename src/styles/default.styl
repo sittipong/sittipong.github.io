@@ -1,0 +1,108 @@
+@import variable
+@import fla
+
+html, body
+  -webkit-font-smoothing antialiased
+  -moz-font-smoothing grayscale
+  font-family acta-display, serif
+  background #14141A
+  color #999
+
+#h
+  min-height 100vh
+  position relative
+  .tagline
+    color #666
+
+.component
+  position relative
+  .inner
+    position absolute
+    top 0
+    left 0
+    right 0
+    bottom 0
+#logo
+  width 260px
+.avatar
+  width 180px
+  height 180px
+  border-radius 50%
+  overflow hidden
+#me
+  .avatar
+    margin 1em 0
+  p, h3
+    margin .5em 0
+
+#timeline
+  font-family Montserrat, sans-serif
+  text-align: center
+  h2, h3
+    color white
+  h2, h3, h4, h5
+    margin 1rem 0
+    letter-spacing 2px
+  h2
+    font-size 12em
+    font-weight 300
+  h4, h5
+    letter-spacing .5px
+  h5.name
+    margin 0
+  .timeline
+    text-align left
+    .job
+      padding-left 2em
+      margin 2em auto
+      .time, .company
+        letter-spacing 0
+        margin 0
+      .time
+        color #666666
+      .position
+        color white
+        position relative
+        margin .5rem 0
+        font-size 2.4rem
+        &::before
+          content '\e901'
+          left -1em
+          width 10px
+          height 10px
+          position absolute
+          color #293866
+          font-family 'hicon'
+          transform translateX(-50%)
+      .company
+        color #293866
+#f
+  margin 5em 0
+  a
+    color white
+.text-center
+  text-align center
+
+.monospace
+  font-family 'Courier new', Courier, monospace
+.sans
+  font-family Montserrat, sans-serif
+.half
+  color #999
+  opacity .5
+.solid
+  color white
+.letter-around
+  letter-spacing 1px
+
+/**
+ * Utility Class
+ */
+.away-top
+  margin-top 10em
+.away-bottom
+  margin-bottom 10em
+.far-top
+  margin-top 5em
+.far-bottom
+  margin-bottom 5em

@@ -1,0 +1,43 @@
+{
+  "name": "sittipong.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sittipong/sittipong.github.io.git"
+  },
+  "author": "Sittipong HAUS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sittipong/sittipong.github.io/issues"
+  },
+  "homepage": "https://github.com/sittipong/sittipong.github.io#readme",
+  "devDependencies": {
+    "bootstrap3-stylus": "^0.1.0",
+    "browser-sync": "^2.12.8",
+    "eslint": "^3.0.0",
+    "eslint-loader": "^1.0.0",
+    "eslint-plugin-react": "^6.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^4.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-inject-string": "^1.1.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "4.3.6",
+    "imagemin-pngquant": "^5.0.0",
+    "nib": "^1.1.2"
+  },
+  "dependencies": {
+    "flex-layout-attribute": "^1.0.3"
+  }
+}
